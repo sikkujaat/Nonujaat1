@@ -1,17 +1,19 @@
 {
-  "name": "fb-messenger-convo-bot",
+  "name": "fb-bot-server",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "express": "^4.19.0",
     "axios": "^1.6.7",
-    "dotenv": "^16.5.0",
-    "sqlite3": "^5.1.6",
     "body-parser": "^1.20.2",
-    "node-fetch": "^3.4.1"
+    "dotenv": "^16.5.0",
+    "sqlite3": "^5.1.6"
   }
 }
