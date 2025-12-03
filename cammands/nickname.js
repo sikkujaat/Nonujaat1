@@ -1,0 +1,1 @@
+export default async function setNick(db, psid, nick){ await db.run('INSERT INTO users(psid,nickname) VALUES(?,?) ON CONFLICT(psid) DO UPDATE SET nickname=excluded.nickname',[psid,nick]); return true; }
