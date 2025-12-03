@@ -1,19 +1,19 @@
 {
-  "name": "fb-bot-server",
+  "name": "fb-bot",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node index.js"
-  },
   "engines": {
     "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.19.0",
     "axios": "^1.6.7",
-    "body-parser": "^1.20.2",
     "dotenv": "^16.5.0",
+    "body-parser": "^1.20.2",
     "sqlite3": "^5.1.6"
   }
 }
